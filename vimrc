@@ -30,9 +30,11 @@ set showmatch
 set hlsearch
 " Paste without indent
 set pastetoggle=<F4>
-" Buffer switch
+" Buffer and Tab switch
 nnoremap <F5> :buffers<CR>:buffer<Space>
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
 nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . tabpagenr()<CR>
+nnoremap <C-n> :tabnew<CR>
+nnoremap <C-o> :tabnew<CR>:e<Space>
