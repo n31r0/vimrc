@@ -46,9 +46,9 @@ if exists("syntax_on")
      " hi CursorLine           cterm=none ctermbg=238      ctermfg=none    gui=none        guibg=#424242
       hi CursorLine           cterm=none ctermbg=237      ctermfg=none    gui=none        guibg=#3a3a3a
       hi Title                cterm=none ctermbg=none     ctermfg=139     gui=none                        guifg=#AF87AF
-      hi TabLineFill          cterm=none ctermbg=236     ctermfg=139
-      hi TabLine              cterm=none ctermbg=236     ctermfg=Blue
-      hi TabLineSel           cterm=bold ctermbg=237      ctermfg=Red
+      hi TabLineFill          cterm=none ctermbg=236      ctermfg=139
+      hi TabLine              cterm=none ctermbg=236      ctermfg=242
+      hi TabLineSel           cterm=bold ctermbg=237      ctermfg=75
 
       " ----------------------------------------------------------------------------
       " Syntax Highlighting
